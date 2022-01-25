@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinLayouts.AbsolutePage"
+             Padding="0,20,0,0">
+
+    <AbsoluteLayout>
+        <BoxView Color="Aqua" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+        <BoxView Color="Wheat" AbsoluteLayout.LayoutBounds="0.5,0.1,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Button Text="Getting Started" AbsoluteLayout.LayoutBounds="0,1,1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+    </AbsoluteLayout>
+    
+    
+</ContentPage>
